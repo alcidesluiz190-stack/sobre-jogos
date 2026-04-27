@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft</title>
+
+<style>
+
+/* ===== Estilos Gerais ===== */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #3a7d44, #6ab04c, #badc58, #130f40);
+    color: white;
+}
+
+/* ===== Cabeçalho ===== */
+header{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+/* ===== Menu ===== */
+nav{
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #7ed957;
+}
+
+/* ===== Menu lateral ===== */
+.menu-direito{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.menu-direito a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-direito a:hover{
+    background-color: #7ed957;
+    color: black;
+    border-radius: 5px;
+}
+
+/* ===== Seções ===== */
+section{
+    padding: 20px;
+}
+
+/* ===== Lista ===== */
+ul li{
+    background-color: rgba(0,0,0,0.6);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* ===== Galeria ===== */
+.galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeria img{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px lime;
+}
+
+/* ===== Footer ===== */
+footer{
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    padding: 15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>⛏️ Minecraft</h1>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#modos">Modos</a>
+    <a href="#criacao">Construção</a>
+    <a href="#galeria">Galeria</a>
+</nav>
+
+<div class="menu-direito">
+    <a href="index .html">inicio</a>
+   
+</div>
+
+<section id="sobre">
+    <h2>Sobre o Minecraft</h2>
+    <p>
+        Minecraft é um jogo de mundo aberto onde os jogadores podem explorar, construir e sobreviver num universo feito de blocos.
+        Criado pela Mojang, é um dos jogos mais vendidos da história.
+    </p>
+</section>
+
+<section id="modos">
+    <h2>Modos de Jogo</h2>
+    <ul>
+        <li>Sobrevivência - Recolha recursos e sobreviva</li>
+        <li>Criativo - Construa livremente sem limites</li>
+        <li>Aventura - Mapas personalizados</li>
+        <li>Hardcore - Sobrevivência com dificuldade máxima</li>
+    </ul>
+</section>
+
+<section id="criacao">
+    <h2>Construção</h2>
+    <ul>
+        <li>Construção de casas e cidades</li>
+        <li>Criação de mecanismos com Redstone</li>
+        <li>Exploração de cavernas e biomas</li>
+    </ul>
+</section>
+
+<section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-1gxBt6x3HjYaQmiKaEL32BIQJrPXPNEz1A&s">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-dId2YczwhqZx4jO4fq6KGVa_vd_b_Cg2RQ&s">
+        <img src="https://files.tecnoblog.net/wp-content/uploads/2020/05/como-voar-no-minecraft-04-700x394.jpeg">
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 - Página sobre Minecraft</p>
+</footer>
+
+</body>
+</html>
